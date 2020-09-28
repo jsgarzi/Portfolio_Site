@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+h1{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;    
+}
+
+h3{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#navHeaderL {
+    font-family: sofia-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+}
+
+#navHeaderR {
+    font-family: sofia-pro,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#backgroundContainerHome {
+    width: 100%;
+    height: calc(100% - 57.92px);
+    background-image: url("img/jSAI.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#backgroundCover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#coverTextBoxHome {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    height: 300px;
+    width: 500px;
+    align-self: center;
+    justify-content: center;
+}
+
+#coverTextHey {
+    font-size: 60px;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-family: sofia-pro,sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    line-height: .8em;
+    width: 40px;
+    cursor: default;
+}
+
+#coverTextHey:hover{
+    color: #FF0035;
+}
+
+#coverTextRest{
+    font-size: 40px;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-family: sofia-pro,sans-serif;
+    font-weight: 500;
+    font-style: normal;    
+    cursor: default;
+}
+
+#coverTextRest:hover{
+    color:#38405F;
+}
+
+#contactImage{
+        background-image: url(img/abstract.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+    #coverTextHey {
+        font-size: 30px;
+    }    
+    
+    #coverTextRest{
+        font-size: 20px;
+    }
+}
